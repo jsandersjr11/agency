@@ -310,6 +310,10 @@ blockquote {
   -webkit-text-fill-color: inherit;
 }
 
+.section.top-section.appointmentpage {
+  height: 245vh;
+}
+
 .section.footer {
   background-color: #1f2c3d;
 }
@@ -704,7 +708,7 @@ blockquote {
 }
 
 .col.lg-6 {
-  width: 50%;
+  width: 100%;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -4204,7 +4208,7 @@ blockquote {
 .card-label {
   display: block;
   margin-bottom: auto;
-  padding: 4px 8px;
+  padding: 10px 8px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -4214,10 +4218,11 @@ blockquote {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  border-style: solid;
+  border-style: none;
   border-width: 1px;
   border-color: #102832;
   border-radius: 4px;
+  background-color: rgba(16, 40, 50, 0.1);
   font-size: 16px;
   font-weight: 500;
   text-align: center;
