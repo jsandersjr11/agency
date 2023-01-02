@@ -4673,6 +4673,10 @@ blockquote {
   flex: 0 auto;
 }
 
+.html-embed {
+  width: 100%;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     line-height: 1.2em;
