@@ -457,7 +457,7 @@ blockquote {
   align-items: flex-start;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px 15px 20px;
+  padding: 40px 0 20px;
   display: flex;
   position: relative;
 }
@@ -2719,7 +2719,7 @@ blockquote {
 }
 
 .benefits {
-  margin-bottom: 100px;
+  margin-bottom: 0;
 }
 
 .wrapper-benefits {
@@ -2913,7 +2913,7 @@ blockquote {
 }
 
 .card.card3-content.refer.scale {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -3142,6 +3142,7 @@ blockquote {
 }
 
 .secondary.white-button {
+  float: left;
   color: #fff;
   text-align: center;
   object-fit: none;
@@ -3636,6 +3637,15 @@ blockquote {
 .fcdo_body {
   margin-bottom: 100px;
   display: block;
+}
+
+.navbar-3 {
+  background-color: #fff;
+}
+
+.brand-2 {
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 @media screen and (max-width: 991px) {
@@ -5065,6 +5075,10 @@ blockquote {
     padding-left: 24px;
     padding-right: 24px;
   }
+
+  .column-4 {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -5747,6 +5761,15 @@ blockquote {
                    "Area-5"
                    "Area-6"
                    / 1fr;
+  }
+
+  .navbar-3 {
+    background-color: #fff;
+  }
+
+  .brand-2 {
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 }
 
